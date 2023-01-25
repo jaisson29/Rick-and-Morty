@@ -1,0 +1,84 @@
+.socialNav a{
+  text-decoration: none;
+  color: red;
+  font-size: 20px;
+  margin: 0 10px;
+  transition: .3s;
+}
+
+.socialNav a i {
+  transition: .3s;
+}
+
+.socialNav a i:hover {
+  transform: scale(1.2);
+}
+
+.containerContact {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.contact-content {
+  position: absolute;
+  top: 150px;
+  right: 60%;
+  z-index: 1;
+  align-items: center;
+  align-content: center;
+  margin-top: 5%;
+}
+
+.contentContact-info {
+  text-align: center;
+  margin-left: 10%;
+}
+
+.contentContact-info h2 {
+  color: var(--tone-five);
+  font-size: 60px;
+
+}
+
+.contentContact-info h3{
+  color: var(--tone-six);
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.contact-info{
+  color: var(--tone-four);
+  margin: 60px 0;
+  font-size: medium;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-foundUs {
+  margin-top: 1px;
+  font-size: large;
+  color: var(--tone-six);
+}
+
+.contact-icons a{
+  text-overflow: clip;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  border: none;
+  color: black;
+  text-decoration: normal;
+  text-align: center;
+  -o-text-overflow: clip;
+  white-space: pre;
+  text-shadow: 0 0 15px var(--tone-five) ,
+  0 0 12px var(--tone-six) , 
+  0 0 3px var(--tone-five) ,
+  0 0 4px var(--tone-five) ,
+  0 0 5px var(--tone-five);
+  font-size: 70px;
+}
